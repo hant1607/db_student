@@ -427,15 +427,5 @@ INSERT INTO `users` VALUES (4, 'test', 'test@gmail.com', NULL, '$2y$10$lNZNirK1Y
 INSERT INTO `users` VALUES (5, 'hhihihi', 'hihihi@gmail.com', NULL, '$2y$10$Jg9msBKMF7AM9spS0P5goOpIPnomzxK2qv93.ru9xsxBiMHhkBLni', NULL, '2019-08-29 09:14:01', '2019-08-29 09:14:01', NULL, NULL, NULL);
 INSERT INTO `users` VALUES (7, 'guest', 'guest@gmail.com', NULL, '$2y$10$150ijFT3d5jKvoxC.2OI7.A/4CLxlCr8QSxkS/oB.9/JJZ/PUFoLW', NULL, '2019-08-29 09:37:26', '2019-08-29 09:37:26', NULL, NULL, NULL);
 INSERT INTO `users` VALUES (19, 'memedfdfgg', 'newstd@gmail.com', NULL, '$2y$10$orIPTJPuBp6ScN5SarZClO87NTph7TmOJ2qFKEJMt7dxHY5U8ohAS', NULL, '2019-08-05 06:29:49', '2019-09-16 10:29:49', '', '', NULL);
-INSERT INTO `users` VALUES (20, 'new1', 'new1@gmail.com', NULL, '$2y$10$b011GXBVvsh6I9ZHgWsb/.f1i7aPye9OXMimexRh1FTB/rzvPHROK', NULL, '2019-08-05 06:39:33', '2019-08-05 06:39:33', '', '', NULL);
-INSERT INTO `users` VALUES (22, 'oc', 'nguyenthiha.elf.199@gmail.com', NULL, '$2y$10$2efaGm7n2hbFZQXuBZFEZOHqafctfSnwYB8ftRKuaYRswRZz53bwm', 'L3pJa40FjkYRDqFPUQZsJrrQeOicD9BLxmSiEajzELhoH3md2b3MJtIDAJxv', '2019-08-05 06:47:02', '2019-08-12 07:52:04', 'facebook', '753444951757527', NULL);
-INSERT INTO `users` VALUES (23, 'abc', 'cherrypham197@gmail.com', NULL, '$2y$10$Aa/u30kII2QUIjGLosFpxOA7An8T40rz/.eNY29cbl7kB.IdIWIV6', NULL, '2019-08-05 07:30:29', '2019-08-05 07:30:29', '', '', NULL);
-INSERT INTO `users` VALUES (24, 'std1', 'std1@gmail.com', NULL, '$2y$10$jWAdnKAEcLNq15rYx19.BOJRf4fFSQ/Kg3TO0jN9vqU7xIO1cJ1m2', NULL, '2019-08-06 07:08:37', '2019-08-06 07:08:37', '', '', NULL);
-INSERT INTO `users` VALUES (25, 'std2', 'std2@gmail.com', NULL, '$2y$10$vncOBoRvrO4c9xD1892NWunSDbQlEBzKsi2FLYjsfXN9YYCT/9lWu', NULL, '2019-08-06 07:09:47', '2019-08-06 07:09:47', '', '', NULL);
-INSERT INTO `users` VALUES (26, 'std3', 'std3@gmail.com', NULL, '$2y$10$S5WH6vzSlv/HlC8Ybo46y.e0Dr1MKwQnRb/0asR2ZgDyULkXJBqXO', NULL, '2019-08-06 07:10:38', '2019-08-06 07:10:38', '', '', NULL);
-INSERT INTO `users` VALUES (27, 'demo', 'demo@gmail.com', NULL, '$2y$10$0YrTInNZwWVQ3g7sfF9kr.vK1EKJ191MWuXzvO5UuMLwOyB/iZkJa', NULL, '2019-08-07 08:40:46', '2019-08-07 08:40:46', '', '', NULL);
-INSERT INTO `users` VALUES (28, 'hehe', 'hehe@gmail.com', NULL, '$2y$10$RJi0HDIeUiV43Bfavl7wnuh4n3BILQS8sY8RrjrkozbigzTvnX/5G', NULL, '2019-08-07 09:47:53', '2019-08-07 09:47:53', '', '', NULL);
-INSERT INTO `users` VALUES (30, 'test1@gmail.com', 'test1@gmail.com', NULL, '$2y$10$KNC/uG0Ub/iEOeZQut7bK.5L385e3Z30xMY6mSM1.JTmQs3AtPCZK', NULL, '2019-08-08 03:47:44', '2019-08-08 03:47:44', '', '', NULL);
-
 
 SET FOREIGN_KEY_CHECKS = 1;
