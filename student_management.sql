@@ -5,13 +5,13 @@
  Source Server Type    : MySQL
  Source Server Version : 100128
  Source Host           : localhost:3306
- Source Schema         : student_management
+ Source Schema         : students
 
  Target Server Type    : MySQL
  Target Server Version : 100128
  File Encoding         : 65001
 
- Date: 28/10/2019 16:31:10
+ Date: 28/10/2019 23:36:45
 */
 
 SET NAMES utf8mb4;
@@ -122,6 +122,28 @@ INSERT INTO `messages` VALUES (135, 'ttt', 35, '2019-09-30 10:30:20', '2019-09-3
 INSERT INTO `messages` VALUES (136, 'hhh', 3, '2019-09-30 10:31:18', '2019-09-30 10:31:18');
 INSERT INTO `messages` VALUES (137, 'hello', 35, '2019-10-01 15:35:47', '2019-10-01 15:35:47');
 INSERT INTO `messages` VALUES (138, 'hi', 3, '2019-10-01 15:37:43', '2019-10-01 15:37:43');
+INSERT INTO `messages` VALUES (139, 'ahihi', 3, '2019-10-01 16:16:01', '2019-10-01 16:16:01');
+INSERT INTO `messages` VALUES (140, 'ffff', 3, '2019-10-01 16:16:05', '2019-10-01 16:16:05');
+INSERT INTO `messages` VALUES (141, 'bi dienr', 3, '2019-10-01 17:30:41', '2019-10-01 17:30:41');
+INSERT INTO `messages` VALUES (142, 'vvvv', 3, '2019-10-02 08:27:33', '2019-10-02 08:27:33');
+INSERT INTO `messages` VALUES (143, 'lalal', 35, '2019-10-02 08:28:29', '2019-10-02 08:28:29');
+INSERT INTO `messages` VALUES (144, 'lalal', 35, '2019-10-02 08:28:29', '2019-10-02 08:28:29');
+INSERT INTO `messages` VALUES (145, 'fjdfh', 3, '2019-10-04 03:26:53', '2019-10-04 03:26:53');
+INSERT INTO `messages` VALUES (146, 'hhhaa', 3, '2019-10-04 03:27:06', '2019-10-04 03:27:06');
+INSERT INTO `messages` VALUES (147, 'llll', 35, '2019-10-04 03:32:39', '2019-10-04 03:32:39');
+INSERT INTO `messages` VALUES (148, 'ff', 3, '2019-10-04 04:37:49', '2019-10-04 04:37:49');
+INSERT INTO `messages` VALUES (149, '000', 3, '2019-10-04 04:38:07', '2019-10-04 04:38:07');
+INSERT INTO `messages` VALUES (150, 'hfhfjkhfk', 7, '2019-10-04 04:41:51', '2019-10-04 04:41:51');
+INSERT INTO `messages` VALUES (151, 'fdf', 3, '2019-10-07 07:02:54', '2019-10-07 07:02:54');
+INSERT INTO `messages` VALUES (152, 'dsds', 3, '2019-10-07 07:21:00', '2019-10-07 07:21:00');
+INSERT INTO `messages` VALUES (153, 'hfjdfhdj', 3, '2019-10-07 08:29:32', '2019-10-07 08:29:32');
+INSERT INTO `messages` VALUES (154, 'hjdhf', 3, '2019-10-07 08:33:04', '2019-10-07 08:33:04');
+INSERT INTO `messages` VALUES (155, 'fds', 35, '2019-10-07 08:38:45', '2019-10-07 08:38:45');
+INSERT INTO `messages` VALUES (156, 'ggdg', 35, '2019-10-07 08:48:32', '2019-10-07 08:48:32');
+INSERT INTO `messages` VALUES (157, 'đ', 3, '2019-10-07 08:50:02', '2019-10-07 08:50:02');
+INSERT INTO `messages` VALUES (158, 'ahihi', 35, '2019-10-07 08:56:37', '2019-10-07 08:56:37');
+INSERT INTO `messages` VALUES (159, 'fdfdf', 3, '2019-10-16 07:05:50', '2019-10-16 07:05:50');
+INSERT INTO `messages` VALUES (160, 'hhh', 3, '2019-10-16 07:10:44', '2019-10-16 07:10:44');
 
 -- ----------------------------
 -- Table structure for migrations
@@ -286,14 +308,25 @@ INSERT INTO `results` VALUES (305, 7, 6, 3.00, NULL, NULL, NULL);
 INSERT INTO `results` VALUES (306, 7, 7, 4.00, NULL, NULL, NULL);
 INSERT INTO `results` VALUES (323, 11, 4, 1.00, NULL, NULL, NULL);
 INSERT INTO `results` VALUES (324, 11, 5, 6.00, NULL, NULL, NULL);
-INSERT INTO `results` VALUES (406, 1063, 2, 10.00, NULL, NULL, NULL);
-INSERT INTO `results` VALUES (407, 1063, 4, 10.00, NULL, NULL, NULL);
 INSERT INTO `results` VALUES (408, 7, 8, 8.00, NULL, '2019-09-05 17:16:13', '2019-09-05 17:16:13');
-INSERT INTO `results` VALUES (409, 54, 4, 8.00, NULL, '2019-09-05 17:18:37', '2019-09-05 17:18:37');
 INSERT INTO `results` VALUES (412, 11, 5, 8.00, NULL, '2019-09-06 03:15:26', '2019-09-06 03:15:26');
 INSERT INTO `results` VALUES (413, 7, 7, 5.00, '7', '2019-09-09 10:13:38', '2019-09-09 10:13:38');
 INSERT INTO `results` VALUES (414, 7, 4, 9.00, '7-1', '2019-09-09 10:14:20', '2019-09-09 10:14:20');
-INSERT INTO `results` VALUES (419, 59, 5, 5.00, '59', '2019-09-18 07:24:54', '2019-09-18 07:24:54');
+INSERT INTO `results` VALUES (420, 5, 4, 10.00, NULL, NULL, NULL);
+INSERT INTO `results` VALUES (421, 5, 5, 10.00, NULL, NULL, NULL);
+INSERT INTO `results` VALUES (422, 5, 6, 10.00, NULL, NULL, NULL);
+INSERT INTO `results` VALUES (423, 5, 7, 10.00, NULL, NULL, NULL);
+INSERT INTO `results` VALUES (424, 5, 2, 10.00, NULL, NULL, NULL);
+INSERT INTO `results` VALUES (425, 5, 8, 10.00, NULL, NULL, NULL);
+INSERT INTO `results` VALUES (435, 1, 2, 10.00, NULL, NULL, NULL);
+INSERT INTO `results` VALUES (436, 1, 5, 10.00, NULL, NULL, NULL);
+INSERT INTO `results` VALUES (437, 1, 6, 10.00, NULL, NULL, NULL);
+INSERT INTO `results` VALUES (438, 4, 7, 10.00, NULL, NULL, NULL);
+INSERT INTO `results` VALUES (439, 4, 5, 10.00, NULL, NULL, NULL);
+INSERT INTO `results` VALUES (440, 4, 2, 10.00, NULL, NULL, NULL);
+INSERT INTO `results` VALUES (441, 4, 4, 10.00, NULL, NULL, NULL);
+INSERT INTO `results` VALUES (442, 4, 6, 10.00, NULL, NULL, NULL);
+INSERT INTO `results` VALUES (443, 4, 8, 10.00, NULL, NULL, NULL);
 
 -- ----------------------------
 -- Table structure for role_has_permissions
@@ -395,19 +428,12 @@ CREATE TABLE `students`  (
 -- ----------------------------
 INSERT INTO `students` VALUES (1, 'Nguyen Ha', 3, 1, '1998-07-16', 2, '0353990993', 'image.jpg', '2019-09-18 03:20:06', '2019-10-03 18:02:54');
 INSERT INTO `students` VALUES (4, 'Trang oc 4', 2, 2, '1997-01-01', 2, '01642873972', '69cabeb2gy1frdjojkn9oj20m80m8jwi.jpg', NULL, '2019-09-11 09:56:34');
-INSERT INTO `students` VALUES (5, 'hant 7', 4, 1, '2019-08-05', 2, '0123456789', '58373412_362135147978045_1199804053349990400_n.jpg', '2019-08-01 09:10:26', '2019-10-03 18:03:04');
+INSERT INTO `students` VALUES (5, 'hant 7', 37, 1, '2019-08-05', 2, '0123456789', '58373412_362135147978045_1199804053349990400_n.jpg', '2019-08-01 09:10:26', '2019-10-03 18:03:04');
 INSERT INTO `students` VALUES (7, 'Linh', 5, 1, '1998-05-15', 2, '0987654312', 'Ji-Chang-Wook-for-Police-Eyewear-ji-chang-wook-40485574-600-849.jpg', '2019-08-05 07:30:29', '2019-08-23 06:49:39');
 INSERT INTO `students` VALUES (9, 'std2', 7, 3, '1997-02-22', 2, '0987654321', NULL, '2019-08-06 07:09:47', '2019-08-06 07:09:47');
 INSERT INTO `students` VALUES (10, 'std3', 1, 6, '1996-12-22', 2, '0675541215', NULL, '2019-08-06 07:10:38', '2019-08-06 07:10:38');
 INSERT INTO `students` VALUES (11, 'std4', 1, 6, '1993-12-21', 1, '01943899142', NULL, '2019-08-06 07:11:49', '2019-08-06 07:11:49');
-INSERT INTO `students` VALUES (12, 'lala', 1, 1, '2019-08-05', 1, '0123456785', '69cabeb2gy1frdjojkn9oj20m80m8jwi.jpg', '2019-08-14 02:05:11', '2019-08-14 02:05:11');
-INSERT INTO `students` VALUES (2583, 'ahihi', 147, 3, '2011-11-11', 1, '012987462', NULL, '2019-09-18 04:12:47', '2019-09-18 04:12:47');
-INSERT INTO `students` VALUES (2584, 'meme', 149, 2, '2012-12-12', 1, '089745621', NULL, '2019-09-18 06:29:20', '2019-09-18 06:29:20');
-INSERT INTO `students` VALUES (2585, 'lalala', 150, 2, '2011-11-11', 2, '0123987456', NULL, '2019-09-20 04:53:07', '2019-09-20 04:53:07');
-INSERT INTO `students` VALUES (2586, 'lau', 151, 6, '2005-12-15', 2, '065498712', 'anh.jpg', '2019-09-25 01:55:45', '2019-09-25 01:55:45');
-INSERT INTO `students` VALUES (2587, 'test', 23, 1, '1998-01-01', 1, '023546975', NULL, NULL, NULL);
-INSERT INTO `students` VALUES (2589, 'hihi', 23, 1, '1969-10-02', 1, '090909090', NULL, NULL, NULL);
-INSERT INTO `students` VALUES (2590, 'hihi2', 23, 1, '1969-10-02', 1, '090909090', NULL, NULL, NULL);
+INSERT INTO `students` VALUES (12, 'lala', NULL, 1, '2019-08-05', 1, '0123456785', '69cabeb2gy1frdjojkn9oj20m80m8jwi.jpg', '2019-08-14 02:05:11', '2019-08-14 02:05:11');
 
 -- ----------------------------
 -- Table structure for subjects
@@ -479,9 +505,7 @@ INSERT INTO `users` VALUES (45, 'kaka', 'kaka@gmail.com', NULL, '$2y$10$dLLq3Rb6
 INSERT INTO `users` VALUES (46, 'demo jgjg', 'demohihi@gmail.com', NULL, '$2y$10$IkLexa3HTLAXJ6nEjA.1CevKSCSOMpaQ3O9k9EGwXrsSnz5sddgRm', NULL, '2019-08-27 03:27:40', '2019-08-27 03:52:50', NULL, NULL, NULL);
 INSERT INTO `users` VALUES (52, 'nguyenha', 'nguyenha@gmail.com', NULL, '$2y$10$XB6UGKeU3kGLCny3UnyMNOwIuJKOqFL9aAlbJ55N65HWu9hsG7.Qu', NULL, '2019-08-30 02:56:47', '2019-08-30 02:56:47', NULL, NULL, NULL);
 INSERT INTO `users` VALUES (53, 'trang123', 'member1332@gmail.com', NULL, '$2y$10$jTzDMw9QPxlRKxUW48cu6uwdn7vJ1JCAm1tli0Ta701zRkZSPn7Oe', NULL, '2019-08-30 06:29:06', '2019-08-30 06:29:06', NULL, NULL, NULL);
+INSERT INTO `users` VALUES (54, 'ahidfjdknvn', 'aggfgud@gmail.com', NULL, '$2y$10$evvjPjEaTFldPJvWvA5G7OvQFk7dMaXEiy6RRN0L.zELs21tY9e7W', NULL, '2019-09-10 16:25:05', '2019-09-10 16:25:05', NULL, NULL, 'ahidfjdknvn');
 
--- ----------------------------
--- Procedure structure for createEmailList
--- ----------------------------
 
 SET FOREIGN_KEY_CHECKS = 1;
